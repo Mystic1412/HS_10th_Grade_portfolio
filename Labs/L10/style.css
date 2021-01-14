@@ -1,0 +1,173 @@
+body{
+  background-color: rgb(78, 185, 171);
+  text-align: center;
+}
+div{
+  border-style: dashed;
+  border-width: 2px;
+  background-color: rgb(188, 160, 224);
+  width: 50px;
+  height: 20px;
+}
+#show{
+  width: 50px;
+  background-color: rgb(87, 27, 17);
+  color: rgb(233, 206, 147);
+  animation-name: example;
+  animation-duration: 5s;
+  height: 40px;
+}
+
+@keyframes example {
+  from {background-color: rgb(110, 81, 43);}
+  to {background-color: rgb(59, 12, 102);}
+}
+
+#circle{
+  position: relative;
+  animation-name: move;
+  animation-duration: 4s;
+  border-color: rgb(183, 46, 211);
+  color: rgb(218, 218, 235);
+  background-color: rgb(162, 104, 255);
+}
+@keyframes move {
+from {background-color: red;}
+to {background-color: yellow;}
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+#monster{
+ position: relative;
+ animation-name: slow;
+ animation-duration: 6s;
+ animation-delay: 2s;
+ background-color: rgb(172, 19, 19);
+ color: rgb(219, 219, 219);
+ border-color: rgb(255, 214, 29);
+}
+@keyframes slow {
+  0%   {background-color:rgb(128, 19, 19); left:0px; top:0px;}
+  20%  {background-color:rgb(255, 206, 45); left:200px; top:0px;}
+  40%  {background-color:rgb(87, 87, 87); left:0px; top:0px;}
+  60%  {background-color:rgb(187, 187, 187); left:0px; top:200px;}
+  80% {background-color:rgb(192, 25, 25); left:200px; top:0px;}
+  100%   {background-color:rgb(128, 19, 19); left:0px; top:0px;}
+}
+
+#house{
+  color: rgb(78, 45, 7);
+  background-color: rgb(187, 145, 97);
+  border-color: rgb(230, 167, 73);
+  animation-name: many;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  line-height: 45px;
+  animation-direction: alternate;
+}
+
+@keyframes many {
+0% {left: 0px; top: 0px;}
+25% {left: 240px; top: 240px;}
+50% {left: 400px; top: 30px;}
+75% {left: 480px; top: 240px;}
+100% {left: 600px; top: -100px;}
+}
+
+#cute{
+  border-color: rgb(255, 208, 52);
+  background-color: rgb(125, 80, 143);
+  color: rgb(48, 48, 48);
+  animation-name: way;
+  position: relative;
+  animation-duration: 4s;
+  animation-direction: reverse;
+}
+@keyframes way{
+  0%{left: 0px; top: 0px;}
+  50%{width: 100px; height: 150px; left: 90px; top:200px;}
+  100% {width:110px; height: 160px; left: 376px; top: -149px;}
+}
+
+.perfect{
+  border-color: rgb(112, 58, 22);
+  background-color: rgb(26, 236, 173);
+  color: rgb(96, 31, 150);
+  animation-name: time;
+  position: relative;
+  animation-duration: 5s;
+  animation-timing-function: ease;
+  animation-iteration-count: 4;
+  animation-direction: alternate;
+}
+@keyframes time{
+0%{left: 0px; top: 0px;}
+20%{background-color: rgb(255, 144, 40); left: 100px; top: 130px;}
+40%{background-color: rgb(255, 199, 45); left: 250px; top: -140px;}
+60%{background-color: rgb(236, 233, 226); left: 300px; top: 170px;}
+80%{background-color: rgb(235, 108, 207); left: 430px; top: -250px;}
+100%{background-color: rgb(235, 95, 240); left: 510px; top: 120px;}
+}
+
+.plant{
+  border-color: rgb(14, 100, 14);
+  background-color: rgb(112, 219, 112);
+  color: rgb(38, 66, 122);
+  animation-name: keep;
+  position: relative;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+
+}
+@keyframes keep{
+0%{left: 400px; top:0px;}
+30%{left: 500px; top: -300px}
+60%{left: 700px; top: -420px}
+90%{left: 640px; top: -273px}
+100%{left: 250px; top: 137px}
+}
+
+.side{
+  border-color: rgb(30, 75, 134);
+position: relative;
+animation: animate 5s infinite ease-in-out alternate; 
+}
+@keyframes animate{
+0%{left: 0px; top: 0px;}
+25%{background-color:rgb(211, 211, 211); left: 100px; top: 0px;}
+50%{background-color:rgb(158, 231, 228);  left: 420px; top: -520px;}
+75%{background-color: rgb(106, 169, 211); left: 680px; top: 182px;}
+100%{background-color: rgb(67, 134, 189); left: 0px; top: -528px;}
+}
+
+.betray{
+  color:rgb(184, 211, 235);
+  position: relative;
+  animation: change 5s alternate infinite;
+}
+@keyframes change{
+  from{border-color: rgb(47, 185, 47); background-color: rgb(27, 40, 112); left: 0px;}
+  to{border-color: rgb(207, 198, 71); background-color: rgb(219, 138, 32); left: 600px;}
+}
+
+.staff{
+  border-style: solid;
+  border-color: rgb(80, 47, 5);
+  background-color: rgb(155, 112, 64);
+  color: rgb(255, 212, 92);
+  animation: fly 3s linear infinite alternate; 
+  position: relative;
+
+}
+@keyframes fly{
+from{left: 0px top:0px;}
+to{left: 600px; top:-500px; width: 100px;}
+}

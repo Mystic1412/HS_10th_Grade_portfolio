@@ -1,0 +1,223 @@
+/*This is a comment :D*/
+body{
+  background-color: rgb(118, 184, 184);
+}
+p{
+  text-align: center;
+color: rgb(255, 0, 157);
+translate: (30px, -10px)
+}
+
+div{
+  text-align: center;
+  border: rgb(58, 17, 134);
+  border-style: dashed;
+  border-width: 2 px;
+}
+/*h1 css affexts all h1 tags*/
+h1{
+  color: rgb(24, 230, 185);
+}
+/*the sp id ill overwright any previous css to that element*/
+#sp{
+color: rgb(0, 89, 255);
+transform: rotate(45deg);
+transition-duration: 5000ms;
+}
+#dwt{
+color: rgb(147, 22, 196);
+transform: rotate(360deg);
+transition-duration: 5000ms;
+background-color: rgb(34, 41, 73);
+transform: translate(30px, 10px);
+}
+#two{
+color: rgb(197, 43, 151);
+transform: skew(20deg, 20deg);
+}
+/*the hw class will overwright all previous css to that any element in the same class*/
+.hw{
+  color: rgb(34, 99, 219);
+  transform: matrix(5, 2, 0.5, 1, 120, 20);
+}
+
+
+#color{
+color: rgb(221, 13, 13);
+transform: scaleX(2);
+}
+#backgc{
+background-color: rgb(221, 112, 11);
+color: rgb(207, 252, 255); 
+transform: scaleY(.5);
+transform-origin: 45px 143px;
+transition-duration: 8000ms;
+}
+#w{
+color: rgb(243, 198, 0);
+transform: scale(5,3.5);
+}
+#H{
+color: rgb(10, 63, 10);
+background-color: rgb(155, 255, 155);
+transform: skewX(20deg);
+}
+.borderc{
+color: rgb(10, 159, 218);
+transform: skewY(-10deg);
+}
+.high{
+color: rgb(50, 23, 197);
+transform: skew(-40deg, 40deg);
+background-color: lightsalmon;
+width: 94px;
+}
+.style{
+background-color: rgb(253, 186, 255);
+opacity: .8;
+color: rgb(139, 15, 189);
+transform: matrix(1.5, -2, .5, 1.5, 3, 5);
+transition-duration: 5000ms;
+width: 63px;
+}
+.xmove{
+  transform: translateX(200px);
+  transition-duration: 4000ms;
+}
+.ymove{
+  transform: translateY(200px);
+  transition-duration: 7000ms;
+  background-color: rgb(206, 206, 206);
+  color: rgb(255, 45, 45);
+}
+.move{
+  transform: translate(250px, 275px);
+  transition-duration: 4000ms;
+  background-color: rgb(27, 28, 109);
+  color: rgb(163, 177, 196);
+  width: 25%;
+}
+
+/*above is 2D tranrforms, below is 3D transforms*/
+
+#All{
+  transform: matrix3d(2,2,6,2,1,5,3,2,1,7,1,1,5,4,8,6,);
+  transition-duration: 4000ms;
+  width: 50px;
+  background-color: rgb(59, 12, 102);
+  color: rgb(233, 206, 147);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#allxmove{
+  transform: translateX(250px);
+  transition-duration: 5000ms;
+  width: 68px;
+  background-color: rgb(133, 62, 201);
+  color: rgb(193, 241, 233);
+  border-color: rgb(193, 241, 233);
+}
+#allymove{
+transform: translateY(150px);
+transition-duration: 3000ms;
+width: 95px;
+height: 34px;
+background-color: rgb(88, 166, 185);
+color: rgb(238, 199, 90);
+border-color: white;
+}
+
+#allzmove{
+transform: translateZ(3500px);
+transition-duration: 6000ms;
+}
+#allmove{
+transform: translate3d(42, -61, -137);
+transition-duration: 4000ms;
+width: 95px;
+height: 62;
+background-color: rgb(68, 72, 73);
+color: rgb(235, 255, 56);
+border-color: white;
+}
+
+#threeDscale{
+  transform: scale3d(8, 5, 7);
+  transition-duration: 7000ms;
+  border-style: groove;
+  border-color: rgb(38, 238, 171);
+  color:rgb(38, 238, 171);
+  background-color: rgb(118, 70, 163);
+  opacity: .6;
+  width: 40px;
+  float: right;
+}
+#xscale{
+  transform: scaleX(.5);
+  transition-duration: 4500ms;
+  width: 78px;
+background-color: rgb(52, 156, 182);
+color: rgb(71, 165, 157);
+border-color: rgb(139, 25, 25);
+}
+
+.yscale{
+  transform: scaleY(4);
+  transition-duration: 2500ms;
+  width: 38px;
+height: 16px;
+background-color: rgb(86, 158, 53);
+color: rgb(136, 52, 136);
+border-color: rgb(21, 75, 146);
+}
+.zscale{
+transform: scaleZ(3);
+transition-duration: 4500;
+width: 47px;
+background-color: rgb(34, 61, 151);
+color: rgb(173, 114, 180);
+border-color: rgb(141, 29, 29);
+}
+.allrotate{
+transform: rotate3d(135deg, 210deg, 86deg);
+transition-duration: 5000ms;
+width: 95px;
+background-color: rgb(107, 63, 12);
+color: rgb(168, 182, 48);
+border-color: rgb(51, 49, 49);
+}
+.xrotate{
+transform: rotateX(126deg);
+transition-duration: 3000ms;
+width: 95px;
+height: 62px;
+background-color: rgb(46, 22, 110);
+color: rgb(185, 184, 112);
+border-color: rgb(21, 161, 119);
+}
+.yrotate{
+  transform: rotateY(-100deg);
+  transition-duration: 3000ms;
+  width: 266px;
+height: 62;
+background-color: rgb(14, 13, 100);
+color: rgb(196, 196, 196);
+border-color: rgb(117, 117, 117);
+}
+.zrotate{
+  transform: rotateZ(156deg);
+  transition-duration: 3000ms;
+  width: 95px;
+height: 34px;
+background-color: rgb(17, 10, 78);
+color: rgb(175, 175, 175);
+border-color: rgb(141, 141, 141);
+}
+.p{
+  transform: perspective(458px);
+  transition-duration: 5500;
+width: 153px;
+background-color: rgb(17, 50, 199);
+color: rgb(226, 29, 29);
+border-color: rgb(0, 140, 255);
+
+}

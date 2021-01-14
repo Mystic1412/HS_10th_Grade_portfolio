@@ -1,0 +1,26 @@
+/*the comment*/
+/*This is a single-line comment*/
+/*The following 3 lines change the text color of all p tags or selectors*/
+p {
+color: rgb(200, 76, 216);
+background-color: rgb(255, 253, 114);
+}
+body {
+  background-color: rgb(28, 30, 51);
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9078c445-96b1-45cc-87ea-5ed775a0a033/de5tytm-b9ce6ae3-d03b-4e3b-a374-6b84950f9de0.png/v1/fill/w_550,h_350,strp/among_us_by_maplespyder_de5tytm-350t.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD04MTUiLCJwYXRoIjoiXC9mXC85MDc4YzQ0NS05NmIxLTQ1Y2MtODdlYS01ZWQ3NzVhMGEwMzNcL2RlNXR5dG0tYjljZTZhZTMtZDAzYi00ZTNiLWEzNzQtNmI4NDk1MGY5ZGUwLnBuZyIsIndpZHRoIjoiPD0xMjgwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.70ya0Eefpib0uLN-lAkdXSDVB2wHgA6UblPdEomLIys");
+}
+
+h1 {
+  background-color: lightblue;
+  
+}
+div {
+  background-color: lightpink;
+  opacity: 0.8;
+}
+li {
+  color: white;
+}
+td{
+  color: rgb(127, 255, 244)
+}
