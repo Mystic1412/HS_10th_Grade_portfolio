@@ -49,6 +49,7 @@ button:active{
 .topnav {
   overflow: hidden;
   background-color: rgb(98, 21, 117);
+  list-style-type: none;
 }
 
 /* Navbar links */

@@ -3,16 +3,28 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>LAB 12</title>
-    <link href="style2.css" rel="stylesheet" type="text/css" />
+    <title>LAB 13</title>
+    <link href="style4.css" rel="stylesheet" type="text/css" />
     <link rel="icon" rel="image/jpg" href="Image/Favicon.jpg">
+    <script> 
+        function toggleTheme(value) { 
+  
+            // Obtain the name of stylesheet  
+            // as a parameter and set it  
+            // using href attribute. 
+            var sheets = document 
+                .getElementsByTagName('link'); 
+  
+            sheets[0].href = value; 
+        } 
+    </script> 
   </head>
   <body>
   <center>
     <h1>Web Design Pd 1-2</h1>
-    <h2>1/12/2021</h2>
+    <h2>1/14/2021</h2>
     <h3>Nichole Lin</h3>
-    <h3>Lab 12</h3>
+    <h3>Lab 13</h3>
   </center>
 
 <div class="Header">
@@ -20,10 +32,15 @@
 <p>Resize the broweser window to see the reponsive effect.</p>
 </div>
 
-<button>Do Not Click Here</button>
+<button onclick="toggleTheme('lb13.css')">lb13</button>
+<button onclick="toggleTheme('style1.css')">Style 1</button>
+<button onclick="toggleTheme('style2.css')">Style 2</button>
+<button onclick="toggleTheme('style3.css')">Style 3</button>
+<button onclick="toggleTheme('style4.css')">Style 4</button>
 
-<ul>
-  <div class="topnav">
+
+<ul class="topnav">
+  <div>
   <li><a href="Labs/L1/L1.html">Lab 1</a></li>
   <li><a href="Labs/L2/L2.html">Lab 2</a></li>
   <li><a href="Labs/L3/L3.html">Lab 3</a></li>

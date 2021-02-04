@@ -4,14 +4,13 @@
 
 body{
   background-color: rgb(78, 185, 171);
-  margin: 10;
+  margin: 0;
   text-align: center;
-  font-family: fantasy;
 }
 
 .Header{
-  background-color: #3292ff;
-  padding: 10px;
+  background-color: #f1f1f1;
+  padding: 20px;
   text-align: center;
 }
 
@@ -47,7 +46,7 @@ button:active{
 /* The navbar container */
 .topnav {
   overflow: hidden;
-  background-color: rgb(21, 53, 112);
+  background-color: #333;
   list-style-type: none;
 }
 
@@ -55,23 +54,23 @@ button:active{
 .topnav a {
   float: left;
   display: block;
-  color: #b9fff6;
+  color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: rgb(255, 184, 52);
+  text-decoration: none;
 }
 
 /* Links - change color on hover */
 .topnav a:hover {
-  background-color: rgb(206, 147, 255);
-  color: rgb(0, 104, 173);
+  background-color: #ddd;
+  color: black;
 }
 
 
 .column{
   float: left;
-  width: 40%;
-  padding: 5px;
+  width: 33.33%;
+  padding: 15px;
 }
 
 /*Clear floats after the colums*/
