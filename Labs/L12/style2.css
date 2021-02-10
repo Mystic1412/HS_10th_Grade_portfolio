@@ -1,0 +1,90 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(32, 46, 110);
+  margin: 0;
+  text-align: center;
+  color: rgb(148, 243, 255);
+}
+
+.Header{
+  background-color: #00f7ff;
+  padding: 20px;
+  text-align: center;
+  color: rgb(105, 50, 168);
+}
+
+button{
+  border: rgb(43, 78, 194);
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 15%;
+  color: rgb(139, 255, 135);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: double;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: rgb(64, 163, 255);
+  font-style: oblique;
+  box-shadow: 0px 10px rgb(0, 117, 226);
+}
+button:hover{
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+button{
+  transition-duration: 0.3s;
+}
+button:active{
+  box-shadow: 0px 5px rgb(0, 72, 139);
+  transform: translateY(5px);
+}
+
+/* The navbar container */
+.topnav {
+  overflow: hidden;
+  background-color: rgb(98, 21, 117);
+  list-style-type: none;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #9af3ff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: rgb(79, 220, 255);
+  color: rgb(173, 37, 190);
+}
+
+
+.column{
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/*Clear floats after the colums*/
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*Responsive layout - makes the three columns stack on top of each other instead of next to each other*/
+@media screen {
+  .Column{
+    width: 100%;
+    }
+}

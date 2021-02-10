@@ -1,0 +1,94 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-image: linear-gradient(rgb(246, 148, 193), rgb(91, 192, 235));
+  margin: 0;
+  text-align: center;
+  color: white;
+}
+
+.Header{
+  background-image: radial-gradient(rgb(205, 199, 229), rgb(66, 226, 184), rgb(246, 148, 193));
+  padding: 20px;
+  text-align: center;
+  color: rgb(160, 59, 165);
+}
+
+button{
+  border: rgb(253, 197, 245);
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 15%;
+  color: rgb(114, 221, 247);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: double;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: rgb(128, 147, 241);
+  font-style: oblique;
+  box-shadow: 0px 10px rgb(247, 174, 248);
+}
+button:hover{
+  background-color: rgb(61, 59, 142);
+  color: white;
+  border: rgb(151, 249, 249);
+  border-width: 5px;
+  border-style: solid;
+}
+button{
+  transition-duration: 0.3s;
+}
+button:active{
+  box-shadow: 0px 5px rgb(179, 136, 235);
+  transform: translateY(5px);
+}
+
+/* The navbar container */
+.topnav {
+  overflow: hidden;
+  background-color: rgb(51, 213, 241);
+  list-style-type: none;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: rgb(194, 194, 194);
+  color: rgb(38, 84, 182);
+}
+
+
+.column{
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+  color: rgb(236, 226, 84)
+}
+
+/*Clear floats after the colums*/
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*Responsive layout - makes the three columns stack on top of each other instead of next to each other*/
+@media screen {
+  .Column{
+    width: 100%;
+    }
+}

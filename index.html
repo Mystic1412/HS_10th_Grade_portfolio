@@ -10,7 +10,7 @@
   <body>
   <center>
     <h1>Web Design Pd 1-2</h1>
-    <h2>1/14/2021</h2>
+    <h2>2/4/2021</h2>
     <h3>Nichole Lin</h3>
     <h3>Lab 13</h3>
   </center>
@@ -20,7 +20,6 @@
 <p>Resize the broweser window to see the reponsive effect.</p>
 </div>
 
-<button>Click on Me</button>
 
 
 
@@ -37,26 +36,38 @@
   <li><a href="Labs/L9/L9.html">Lab 9</a></li>
   <li><a href="Labs/L10/L10.html">Lab 10</a></li>
   <li><a href="Labs/L11/L11.html">Lab 11</a></li>
+  <li><a href="Labs/L12/L12.html">Lab 12</a></li>
   <li><a href="Labs/Project1/Project1.html">Project 1</a></li>
   </div>
 </ul>
 
 <div class="row">
   <div class="column">
-    <h2>Column</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <h2>HTML</h2>
+    <p id="demo">Html is the structure of the webpage. Html is used to put content onto the page and where it is supposed to put at.</p>
   </div>
 
   <div class="column">
-    <h2>Column</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <h2>CSS</h2>
+    <p>CSS is for design. CSS is used to design and decorate the webpage, to make it look more visually appealing and interesting.</p> 
+    
   </div>
-
+  
   <div class="column">
-    <h2>Column</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <h2>Java Script</h2>
+    <p id="pop">Javascript is the function of the webpage. Javascript is used to make some of the Html tags work, like the button, and it is used for how the webpage will behave. </p>
+    <button id="change" onclick="change()">Click Me for JS action</button>
   </div>
 </div>
   
+
+  <script>
+    
+    function change() {
+
+     document.getElementById("pop").innerHTML= "Hey Buddy!! How are you?";
+    }
+  </script>
+
   </body>
 </html>
