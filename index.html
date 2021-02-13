@@ -4,23 +4,23 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>LAB 13</title>
-    <link href="style4.css" rel="stylesheet" type="text/css" />
+    <div>
+    <link id="sty" href="style4.css" rel="stylesheet" type="text/css"/>
+    </div>
     <link rel="icon" rel="image/jpg" href="Image/Favicon.jpg">
   </head>
   <body>
   <center>
     <h1>Web Design Pd 1-2</h1>
-    <h2>2/4/2021</h2>
+    <h2>2/10/2021</h2>
     <h3>Nichole Lin</h3>
-    <h3>Lab 13</h3>
+    <h3>Lab 14</h3>
   </center>
 
 <div class="Header">
 <h1>Header</h1>
 <p>Resize the broweser window to see the reponsive effect.</p>
 </div>
-
-
 
 
 <ul class="topnav">
@@ -50,7 +50,7 @@
   <div class="column">
     <h2>CSS</h2>
     <p>CSS is for design. CSS is used to design and decorate the webpage, to make it look more visually appealing and interesting.</p> 
-    
+    <button id="ch" onclick="cssChange()">Click Me for CSS change</button>
   </div>
   
   <div class="column">
@@ -67,7 +67,19 @@
 
      document.getElementById("pop").innerHTML= "Hey Buddy!! How are you?";
     }
+
+    function cssChange(){
+      var st1="<link href='style1.css" rel='stylesheet' type='text/css'/>"
+      var st2="<link href='style2.css' rel='stylesheet' type='text/css'/>"
+      var st3="<link href='style3.css' rel='stylesheet' type='text/css'/>"
+      var st4="<link href='style4.css' rel='stylesheet' type='text/css'/>"
+      var st5="<link href='style5.css' rel='stylesheet' type='text/css'/>"
+
+      var style=["st1","st2","st3s","st4","st5"]
+
+      document.getElementById("ch").innerHTML=style[0];
+    }
   </script>
 
   </body>
-</html>
+</ht
